@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
-import Header from './components/FlowDiagram/Header';
 import DataFlowDiagram from './components/FlowDiagram/DataFlowDiagram';
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
       transition={{ duration: 0.5 }}
     >
       <div className="max-w-6xl w-full">
-        <Header />
         <DataFlowDiagram />
       </div>
     </motion.div>
